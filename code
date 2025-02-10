@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Legends - Визитка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e62429;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color: #e62429;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .heroes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .hero-card {
+            background-color: #333;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 30%;
+            text-align: center;
+        }
+        .hero-card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Apex Legends</h1>
+</header>
+
+<nav>
+    <a href="#about">О игре</a>
+    <a href="#heroes">Герои</a>
+    <a href="#links">Ссылки</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>О игре</h2>
+        <p>Apex Legends — это бесплатная многопользовательская королевская битва, разработанная Respawn Entertainment и изданная Electronic Arts. Игра была выпущена в феврале 2019 года и быстро завоевала популярность благодаря своей динамичной игровой механике и уникальным персонажам.</p>
+    </section>
+
+    <section id="heroes">
+        <h2>Герои</h2>
+        <div class="heroes">
+            <div class="hero-card">
+                <img src="C:\Users\Дим\Desktop\Новая папка\1.jpg" alt="Wraith">
+                <h3>Wraith</h3>
+                <p>Wraith — загадочная боец, способная манипулировать пространством и временем.</p>
+            </div>
+            <div class="hero-card">
+                <img src="https://via.placeholder.com/150" alt="Bloodhound">
+                <h3>Bloodhound</h3>
+                <p>Bloodhound — мастер-следопыт, который использует технологии для выслеживания врагов.</p>
+            </div>
+            <div class="hero-card">
+                <img src="https://via.placeholder.com/150" alt="Pathfinder">
+                <h3>Pathfinder</h3>
+                <p>Pathfinder — робот-разведчик, который использует крюк для быстрого перемещения по карте.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="links">
+        <h2>Ссылки</h2>
+        <p>Официальный сайт: <a href="https://www.ea.com/games/apex-legends" target="_blank">Apex Legends</a></p>
+        <p>Социальные сети: 
+            <a href="https://twitter.com/PlayApex" target="_blank">Twitter</a>, 
+            <a href="https://www.instagram.com/playapex/" target="_blank">Instagram</a>
+        </p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2023 Apex Legends. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
